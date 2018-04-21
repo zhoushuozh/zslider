@@ -30,7 +30,7 @@ function slide(index){
     return n;
 }
 
-$("#wraper .pagination li").on('click', function () {
+$("#wraper .pagination span").on('click', function () {
     slide($(this).index());
 });
 
